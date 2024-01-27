@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Endpoints</title>
+</head>
+<body>
+
+<h1>Welcome to Just Eat</h1>
+<p>Order your meal!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/user">GET /user</a></li>
+    <li><a href="/getUsers/{email}/{password}">GET /getUsers/{email}/{password}</a></li>
+    <li><a href="/loginUser/{email}/{password}">GET /loginUser/{email}/{password}</a></li>
+    <li><a href="/registerUser">POST /registerUser</a></li>
+    <li><a href="/registerAllUser">POST /registerAllUser</a></li>
+    <li><a href="/getUserById/{userId}">GET /getUserById/{userId}</a></li>
+    <li><a href="/deleteUserById/{userId}">DELETE /deleteUserById/{userId}</a></li>
+</ul>
+
+<h1>Welcome to Restaurant API</h1>
+<p>Explore the restaurant endpoints!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href=" http://localhost:8080/restaurant">GET /restaurant</a></li>
+    <li><a href="http://localhost:8080/getRestaurants">GET /getRestaurants</a></li>
+    <li><a href="/getRestaurantById/{id}">GET /getRestaurantById/{id}</a></li>
+    <li><a href="/getRestaurantByName/{name}">GET /getRestaurantByName/{name}</a></li>
+    <li><a href="/getRestaurantByCity/{city}">GET /getRestaurantByCity/{city}</a></li>
+    <li><a href="/getRestaurantByCuisine/{cuisine}">GET /getRestaurantByCuisine/{cuisine}</a></li>
+    <li><a href="/getRestaurantByType/{type}">GET /getRestaurantByType/{type}</a></li>
+    <li><a href="/addRestaurant/{email}/{password}">POST /addRestaurant/{email}/{password}</a></li>
+    <li><a href="/addRestaurants/{email}/{password}">POST /addRestaurants/{email}/{password}</a></li>
+    <li><a href="/deleteRestaurantById/{deliveryId}">DELETE /deleteRestaurantById/{deliveryId}</a></li>
+</ul>
+<h1>Welcome to Order API</h1>
+<p>Place and manage your orders!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/order">GET /order</a></li>
+    <li><a href="/getOrderById/{id}">GET /getOrderById/{id}</a></li>
+    <li><a href="/getOrders">GET /getOrders</a></li>
+    <li><a href="/placeOrder">POST /placeOrder</a></li>
+    <li><a href="/cancleOrderById/{orderId}">DELETE /cancleOrderById/{orderId}</a></li>
+</ul>
+<h1>Welcome to Payment API</h1>
+<p>Explore the payment endpoints!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/getPayment">GET /getPayment</a></li>
+    <li><a href="/getPayments">GET /getPayments</a></li>
+    <li><a href="/makePayment">POST /makePayment</a></li>
+    <li><a href="/canclePaymentById/{paymentId}">DELETE /canclePaymentById/{paymentId}</a></li>
+</ul>
+<h1>Welcome to Food Item API</h1>
+<p>Explore the food item endpoints!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/getFoodItem">GET /getFoodItem</a></li>
+    <li><a href="/getFoodItems">GET /getFoodItems</a></li>
+    <li><a href="/getFoodItemByName/{name}">GET /getFoodItemByName/{name}</a></li>
+    <li><a href="/getFoodItemsByCategory/{category}">GET /getFoodItemsByCategory/{category}</a></li>
+    <li><a href="/getFoodItemsById/{id}">GET /getFoodItemsById/{id}</a></li>
+    <li><a href="/addFoodItem">POST /addFoodItem</a></li>
+    <li><a href="/addAllFoodItems">POST /addAllFoodItems</a></li>
+    <li><a href="/deleteFoodItemBYId/{deliveryId}">DELETE /deleteFoodItemBYId/{deliveryId}</a></li>
+</ul>
+<h1>Welcome to Delivery API</h1>
+<p>Manage your deliveries!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/getDelivery">GET /getDelivery</a></li>
+    <li><a href="/getDeliveries">GET /getDeliveries</a></li>
+    <li><a href="/makeDelivery">POST /makeDelivery</a></li>
+    <li><a href="/cancleDelivery/{deliveryId}">DELETE /cancleDelivery/{deliveryId}</a></li>
+</ul>
+<h1>Welcome to Admin API</h1>
+<p>Manage admin-related functionalities!</p>
+
+<h2>Endpoints:</h2>
+
+<ul>
+    <li><a href="/Admin">GET /Admin</a></li>
+    <li><a href="/loginAdmin/{email}/{password}">GET /loginAdmin/{email}/{password}</a></li>
+</ul>
+</script>
+</body>
+</html>
